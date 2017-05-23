@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+{% extends 'nav.html' %}
+{% load staticfiles %}
+{% block body %}
+<html>
+<body id="index">
+<div class="container">
+    <div class="jumbotron">
+        <h2>Small greet can make a person's day wonderful!</h2>
+        {% if user == "logged" %}
+            <a href="{% url 'social:begin' 'drchrono' %}"><p>Please login to continue</p></a>
+        {% else %}
+            <a href="/main"><p>Please click on this to view the Patients list and setup a greeting</p></a>
+        {% endif %}
+    </div>
+</div>
+</body>
+</html>
+{% endblock %}

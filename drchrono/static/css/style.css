@@ -1,0 +1,76 @@
+#index{
+    background-image: url("http://www.thequotepedia.com/images/100/your-devotion-and-care-brings-healling-comfort-hope-doctors-quote.jpg");
+}
+
+.jumbotron{
+    background-color: transparent;
+    color: white;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  font-family: arial;
+  text-align: center;
+  margin-top: 1.63%;
+  margin-bootom: 1.63%;
+  background-color: beige;
+}
+
+@media only screen and (min-width: 1200px){
+    .card{
+        width: 30% !important;
+        margin: 1.63%;
+    }
+}
+
+@media only screen and (max-width: 1200px) and (min-width: 992px){
+    .card{
+        width: 40% !important;
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+}
+
+.patient-img{
+    width: 200px;
+    height: 250px;
+}
+
+.contain {
+  padding: 0 16px;
+}
+
+.contain::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+.greet {
+  display: inline-block;
+  padding: 8px;
+  margin-right: 4%;
+  margin-left: 4%;
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 4% !important;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+.greet:hover, a:hover {
+  opacity: 0.7;
+}
+
+.titledob{
+    margin-bottom: 10px;
+}
